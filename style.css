@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #da6868;
+  /* position: relative; */
+}
+
+.wrap .left {
+  height: 10%;
+  flex: 0.5;
+  margin-left: 15rem;
+  /* position: absolute;
+  left: 7.5rem; */
+}
+
+.wrap .right {
+  height: 10%;
+  width: 3%;
+  flex: 0.5;
+  margin-right: 15rem;
+  /* position: absolute;
+  right: 7.5rem; */
+}
+
+.wrap .slider {
+  width: 100rem;
+  height: 70rem;
+  /* background: no-repeat center center/contain
+    url('https://picsum.photos/1030/600'); */
+  background-image: url('https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-repeat: no-repeat;
+  background-position: center center/cover;
+}
